@@ -1,0 +1,15 @@
+<div class="name">
+ <div class="avesom"><i class="fa fa-user" aria-hidden="true"></i></div>
+ [text* your-name class:bar size:20 placeholder "Full Name"]
+</div>
+<div class="name">
+ <div class="avesom"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+ [email* your-email class:bar size:20 placeholder "Email Address"]
+</div>
+<div class="name">
+<div class="avesom"><i class="fa fa-phone" aria-hidden="true"></i></div>
+[tel your-tel class:bar size:20 placeholder "Phone Number"]
+</div>
+  [submit "Request a quote"]
+
+  этот код видоизменен и вставлен в контактформу-7 
