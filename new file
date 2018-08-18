@@ -13,3 +13,32 @@
   [submit "Request a quote"]
 
   этот код видоизменен и вставлен в контактформу-7 
+==============================================================================
+Чтоб иконки отоброжались на сайте, в глобальном CSS нужно сделать импорт Font Awesome CDN.
+Для этого заходим на сайт https://gist.github.com/marceloag/9741671 
+и там копируем адрес: https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+А в глобальном CSS пишем(даю полную строку) 
+@import"https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+====================================================================================
+Все настройки в глобальном CSS.
+
+@import"https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+Это подключение иконок от внешнего CDN.
+
+.container {
+max-width: 1170px;	
+}
+Это мы изменяем ширину контейнера с 1040px на 1170px;
+
+@media (max-width: 768px) {
+	.container {
+		max-width: 100%;
+	} 
+}
+ Это мы делаем медиа запрос на мобильный брейкпоинт, чтоб не дамалась вёрстка.
+ 
+.button {
+	text-transform: uppercase;
+	color: #ffffff;
+}
+Это глобальная настройка стиля кнопок.
