@@ -42,3 +42,63 @@ max-width: 1170px;
 	color: #ffffff;
 }
 Это глобальная настройка стиля кнопок.
+
+.footer-site {
+	text-align: center;
+	padding-bottom: 0px;
+  margin-bottom: -20px;
+}
+.footer-site .widget li {
+	display: inline-block;
+}
+
+.footer-site .widget li a {
+	padding: 6px 10px;
+  margin-right: 10px;
+	color: #394b50;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.footer-site .widget li a:hover {
+	background-color: #ffbb42;
+	color: #fff;
+}
+.custom-html-widget .phone {
+	color: #394b50;
+	font-family: Lato;
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 24.15px;
+	margin:10px;
+}
+.custom-html-widget .phons {
+	margin: 15px;
+}
+.custom-html-widget .icon {
+	padding: 5px;
+	color:#709dca;
+}
+.custom-html-widget .icon:hover {
+	color: #ffc155;
+}
+.footer-site .copyright .column {
+	width: 100%;
+}
+.footer-site .grid + .copyright {
+	background-color: #709dca;
+  padding-bottom: 20px;
+  color: #fff;
+	border: none;
+	margin-left: -800px;
+	margin-right: -800px;
+}
+.footer-site {
+	
+}
+@media (max-width: 425px) {
+	.section-slider .wpcf7-form {
+	  flex-direction: column;
+	}
+}
