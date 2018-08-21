@@ -17,15 +17,13 @@
 }
 .section-slider .wpcf7-form {
  display: flex;
- justify-content: space-between;
- height: 50px;  
+ justify-content: space-between;  
  margin-bottom: 30px;
  margin-top: 20px;
 }
 .section-slider .layers-widget-slide-4-424 {
  background-image: linear-gradient(transparent 83%, #fff 83%);
 }
-
 .section-slider .name {
  display: flex;
  position: relative;
