@@ -23,18 +23,18 @@
  margin-top: 20px;
 }
 .section-slider .layers-widget-slide-4-424 {
- background-image: linear-gradient(transparent 87%, #fff 87%);
+ background-image: linear-gradient(transparent 83%, #fff 83%);
 }
 
 .section-slider .name {
  display: flex;
  position: relative;
+ height: 50px;
 }
 .section-slider .avesom {
 display: flex;
 left: 0;
 top: 0;
-bottom: 0;
 position: absolute;
 align-items: center;
 justify-content: center;
