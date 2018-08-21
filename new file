@@ -98,7 +98,9 @@ max-width: 1170px;
 	
 }
 @media (max-width: 425px) {
-	.section-slider .wpcf7-form {
+	.section-slider .wpcf7-form,
+	.section-newsform .wpcf7-form
+	{
 	  flex-direction: column;
 	}
 }
