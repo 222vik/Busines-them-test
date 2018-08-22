@@ -1,16 +1,22 @@
 <div class="name">
- <div class="avesom"><i class="fa fa-user" aria-hidden="true"></i></div>
- [text* your-name class:bar size:20 placeholder "Full Name"]
+ <div class="fa_name">
+  <div class="avesom"><i class="fa fa-user" aria-hidden="true"></i></div>
+  [text* your-name class:bar size:30 placeholder "Full Name"]
+ </div>
 </div>
 <div class="name">
- <div class="avesom"><i class="fa fa-envelope" aria-hidden="true"></i></div>
- [email* your-email class:bar size:20 placeholder "Email Address"]
+ <div class="fa_name">
+  <div class="avesom"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+  [email* your-email class:bar size:30 placeholder "Email Address"]
+ </div>
 </div>
 <div class="name">
-<div class="avesom"><i class="fa fa-phone" aria-hidden="true"></i></div>
-[tel your-tel class:bar size:20 placeholder "Phone Number"]
+ <div class="fa_name">
+  <div class="avesom"><i class="fa fa-phone" aria-hidden="true"></i></div>
+  [tel your-tel class:bar size:30 placeholder "Phone Number"]
+ </div>
 </div>
-  [submit "Request a quote"]
+[submit "Request a quote"]
 
   этот код видоизменен и вставлен в контактформу-7 
 ==============================================================================
@@ -42,6 +48,15 @@ max-width: 1170px;
 	color: #ffffff;
 }
 Это глобальная настройка стиля кнопок.
+
+.header-site .nav-horizontal > ul > li > a {
+text-transform: uppercase;	
+}
+.header-site .nav-horizontal > ul > li > a:hover {
+	background-color: #ffbb42;
+	color: #fff;	
+	}
+Настройка верхнего меню.
 
 .footer-site {
 	text-align: center;
