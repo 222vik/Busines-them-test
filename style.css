@@ -28,18 +28,19 @@
  display: flex;
  position: relative;
  height: 50px;
+ justify-content: center;
 }
 .section-slider .avesom {
 display: flex;
 left: 0;
 top: 0;
+width: 25px;
+height: 100%;
 position: absolute;
 align-items: center;
 justify-content: center;
 color: #888;
 z-index: 1000;
-width: 25px;
-height: 100%;
 }
 .section-slider .wpcf7-form-control {
   padding-left: 26px;
