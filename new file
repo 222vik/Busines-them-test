@@ -58,6 +58,11 @@ text-transform: uppercase;
 	}
 Настройка верхнего меню.
 
+.header-sticky.is_stuck.is_stuck_show >.container {
+	    padding: 10px 0 0;
+}
+Это прикрепленное верхнее меню сделал тоньше при скроле.
+
 .footer-site {
 	text-align: center;
 	padding-bottom: 0px;
@@ -108,9 +113,6 @@ text-transform: uppercase;
 	border: none;
 	margin-left: -800px;
 	margin-right: -800px;
-}
-.footer-site {
-	
 }
 @media (max-width: 425px) {
 	.section-slider .wpcf7-form,
